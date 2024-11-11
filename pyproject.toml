@@ -1,0 +1,32 @@
+[project]
+name = "anything2image"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Peter A.", email = "ink.splatters@pm.me" }
+]
+dependencies = [
+    "accelerate",
+    "decord",
+    "diffusers",
+    "einops",
+    "fire",
+    "ftfy",
+    "fvcore",
+    "gradio",
+    "pytorchvideo",
+    "regex",
+    "soundfile",
+    "timm",
+    "torch",
+    "torchaudio",
+    "torchvision",
+    "transformers",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
